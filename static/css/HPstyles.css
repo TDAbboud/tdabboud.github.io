@@ -154,6 +154,7 @@ i.point-icon:hover {
 
 a:hover {
     color: rgb(52, 73, 94);
+    text-decoration: none;
 }
 
 
