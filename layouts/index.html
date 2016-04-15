@@ -2,6 +2,7 @@
 {{ partial "top-block.html" . }}
   {{ range $index, $element :=  .Data.Pages.ByWeight }}{{ if eq .Section "post" }}
 
+
     <div id="main">
         <!-- Intro -->
         {{ if modBool $index 2 }}<div id="intro" class="counterpoint">{{ else }}<div id="intro" class="point">{{ end}}
@@ -53,19 +54,43 @@
     {{ end }}
 
     </div>
+    <!-- End main -->
 
         <!-- Call to Action -->
         <div id="action" class="call-to-action">
           <div class="container">
             <div class="row">
-              <div class="col-md-10 col-md-offset-1 text-center">
+                <!-- Terminal -->
+                <div id="about" class="about">
+                  <div class="console-section">
+                    <div class="console">
+                      <span class="gp">>>></span> <span class="kn">from</span> <span class="nn">aboutme</span> <span class="kn">import</span><span class="o"> * </span>
+                      <br/><br/>
+                      <!-- Prompt -->
+                      <span class="gp">>>></span> resume <br> ['<span class="s"><a href="tonyabboud_resume.pdf" target="_blank">pdf</a></span>'] <br><br> 
+                      <span class="gp">>>></span> email <br> '<span class="s"><a href="mailto:tony.abboud54@gmail.com" target="_blank">tony.abboud@agmail.com</a></span>' <br><br>
+                      <span class="gp">>>></span> latest_work <br> {<br>
+                        <div class="indent">'<span class="s">company</span>': '<span class="s">Lockheed Martin</span>',</div><br>
+                        <div class="indent">'<span class="s">team</span>': '<span class="s">Advanced Concepts Lab</span>',</div><br>
+                        <div class="indent">'<span class="s">date</span>': '<span class="s">April 2015 - Present</span>'</div><br>} <br><br>
+                      <span class="gp">>>></span> education <br> {<br>
+                        <div class="indent">'<span class="s">university</span>': '<span class="s">University of Maryland</span>',</div><br>
+                        <div class="indent">'<span class="s">major</span>': '<span class="s">Electrical Engineering</span>',</div><br>
+                        <div class="indent">'<span class="s">graduation</span>': '<span class="s">May 2014</span>'</div><br>} <br><br>
+                      <span class="gp">>>></span> interests <br> ['<span class="s">teaching</span>', '<span class="s">music</span>', '<span class="s">kimchi</span>', '<span class="s">biking</span>', '<span class="s">sick threads</span>', '<span class="s">pretty websites</span>', '<span class="s">super smash</span>'] <br><br>
+                      <span class="gp">>>></span> links <br> ['<span class="s"><a href="https://github.com/tdabboud" target="_blank">github</a></span>', '<span class="s"><a href="http://www.linkedin.com/in/tabboud" target="_blank">linkedin</a></span>', '<span class="s"><a href="http://youtube.com/tdabboud" target="_blank">youtube</a></span>']
+                    </div>
+                  </div>
+                </div>
+                <!-- End-Terminal -->
+             <!--  <div class="col-md-10 col-md-offset-1 text-center">
                 <h1 style="padding-bottom:.5em;">Getting Started</h1>
                 <a href="https://github.com/spf13/hugo/releases" class="btn btn-lg btn-primary">Download <i class="icon-arrow-down"></i></a>
                 <a href="/overview/quickstart" style="color:white;font-weight:300;">Quickstart Guide</a>
                 <p>&nbsp;</p>
                 <h4>Using Homebrew?</h4>
                 <pre><code>brew install hugo</code></pre>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
