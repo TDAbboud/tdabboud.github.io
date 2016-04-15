@@ -1,3 +1,18 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "base"
+
+[params]
+  description = "Engineer + Tinkerer"
+  mainIcon = ""
+
+[[params.social]]
+    title = "github"
+    url = "https://github.com/tdabboud"
+[[params.social]]
+    title = "youtube"
+    url = "https://youtube.com/tdabboud"
+[[params.social]]
+    title = "linkedin"
+    url = "https://linkedin.com/in/tabboud"
