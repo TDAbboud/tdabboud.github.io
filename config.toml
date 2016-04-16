@@ -6,7 +6,7 @@ theme = "base"
 [params]
   # description = "Engineer + Tinkerer"
   # description = "Whatever the mind of man can conceive and believe, it can achieve."
-  description = "Hello World! I am an Engineer & Tinkerer"
+  description = "Engineer + Tinkerer"
   mainIcon = ""
   githubName = "tdabboud"
   twitterName = "tdabboud"
