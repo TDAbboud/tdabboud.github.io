@@ -1,2 +1,3 @@
 [] Fix webfont issue (causes the icons to not load)
     "font from origin has been blocked from loading by cross-origin resource sharing policy"
+    - May have been fixed by switching to genericons
