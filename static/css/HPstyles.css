@@ -281,12 +281,12 @@ footer a:hover {
 
 .page-description {
     margin: 0;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: monospace;
     letter-spacing: 0.01rem;
-    color: rgba(255,255,255,0.8);
+    color: #fff;
 }
 
 .blog-logo {
