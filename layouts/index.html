@@ -97,37 +97,37 @@
         <!-- /Call to Action -->
 
         <!-- Add Google Map -->
-<!-- <script type="text/javascript"> -->
-<!--       function initMap() { -->
-<!--         var mapStyle = -->
-<!--             [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]; -->
+    <script type="text/javascript">
+      function initMap() {
+        var mapStyle =
+            [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];
 
-<!--         var mapOptions = { center: {lat: 39.948146, lng: -75.170964}, -->
-<!--                         zoom: 13, -->
-<!--                         scrollwheel: false, -->
-<!--                         styles: mapStyle -->
-<!--         }; -->
-<!--         var mapDiv = document.getElementById('map'); -->
-<!--         var map = new google.maps.Map(mapDiv, mapOptions); -->
-<!--         // Let's also add a marker while we're at it -->
-<!--         var marker = new google.maps.Marker({ -->
-<!--             position: new google.maps.LatLng(39.948146, -75.170964), -->
-<!--             map: map, -->
-<!--         }); -->
-<!--         // Center the map when the screen resizes -->
-<!--         google.maps.event.addDomListener(window, "resize", function() { -->
-<!--             var center = map.getCenter(); -->
-<!--             google.maps.event.trigger(map, "resize"); -->
-<!--             map.setCenter(center); -->
-<!--         }); -->
-<!--       } -->
-<!--     </script> -->
-<!--     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer> </script> -->
-    <!-- <div class="contact-map"> -->
-    <!--         <section id="map" class="map"> -->
-    <!--             <div id="map"></div> -->
-    <!--         </section> -->
-    <!-- </div> -->
+        var mapOptions = { center: {lat: 39.948146, lng: -75.170964},
+                        zoom: 13,
+                        scrollwheel: false,
+                        styles: mapStyle
+        };
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, mapOptions);
+        // Let's also add a marker while we're at it
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(39.948146, -75.170964),
+            map: map,
+        });
+        // Center the map when the screen resizes
+        google.maps.event.addDomListener(window, "resize", function() {
+            var center = map.getCenter();
+            google.maps.event.trigger(map, "resize");
+            map.setCenter(center);
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer> </script>
+    <div class="contact-map">
+            <section id="map" class="map">
+                <div id="map"></div>
+            </section>
+    </div>
         <!-- END Add Google Map -->
 
     <!-- Contact Form -->
@@ -142,7 +142,5 @@
             </div>
         </div>
     </div>
-
-<!-- {{ partial "contact.html" . }} -->
 
 {{ partial "footer.html" . }}
