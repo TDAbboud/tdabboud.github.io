@@ -2,6 +2,7 @@ baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Tony Abboud"
 theme = "base"
+email = "tony.abboud54@gmail.com"
 
 [params]
   # description = "Engineer + Tinkerer"
@@ -21,3 +22,26 @@ theme = "base"
 [[params.social]]
     title = "linkedin"
     url = "https://linkedin.com/in/tabboud"
+
+    [params.contact]
+        title = "Contact"
+
+        # 'error' defines error messages for invalid inputs
+        [params.contact.form.name]
+            text = "Name"
+            error = "Please enter your name."
+
+        [params.contact.form.email]
+            text = "Email Address"
+            error = "Please enter your email address."
+
+        [params.contact.form.phone]
+            text = "Phone Number"
+            error = "Please enter your phone number."
+
+        [params.contact.form.message]
+            text = "Message"
+            error = "Please enter a message."
+
+        [params.contact.form.button]
+            text = "Send"

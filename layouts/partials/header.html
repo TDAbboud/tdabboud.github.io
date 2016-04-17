@@ -20,9 +20,24 @@
     <link href="{{ .Site.BaseURL }}css/owl.theme.default.css" rel="stylesheet">
     <!-- Terminal styles -->
     <link href="{{ .Site.BaseURL }}css/terminal.css" rel="stylesheet">
+    <!-- Bootstrap style for contact form -->
+    <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Scripts for contact form -->
+    {{ "<!-- jQuery -->" | safeHTML }}
+    <script src="{{ .Site.BaseURL }}js/jquery-1.11.js"></script>
+    {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
+    <script src="{{ .Site.BaseURL }}js/bootstrap.js"></script>
+    <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+    {{ "<!-- Contact Form JavaScript -->" | safeHTML }}
+    <script src="{{ .Site.BaseURL }}js/jqBootstrapValidation.js"></script>
+    <script src="{{ .Site.BaseURL }}js/contact_me.js"></script>
+    <script src="{{ .Site.BaseURL }}js/contact_headings.js"></script>
+
+
   </head>
 
   <body>
