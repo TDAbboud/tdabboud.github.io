@@ -9,7 +9,7 @@
     $(function () {
         $(window).scroll(function () {
             // Only start the fade in once we have reached the top of the page-description
-            if ($(this).scrollTop() > $('.page-description').offset().top) {
+            if ($(this).scrollTop() > $('.page-title').offset().top) {
                 $('.navbar').fadeIn();
             } else {
                 $('.navbar').fadeOut();
