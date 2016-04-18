@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>404 Page not found</title>
+
+    
+    <link href="http://replace-this-with-your-hugo-site.com/css/bootstrap-theme.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab&family=Cabin:600&family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    
+    
+    <link href="http://replace-this-with-your-hugo-site.com/css/hugofont.css" rel="stylesheet">
+    <link href="http://replace-this-with-your-hugo-site.com/css/genericons.css" rel="stylesheet">
+    <link href="http://replace-this-with-your-hugo-site.com/css/owl.carousel.css" rel="stylesheet">
+    <link href="http://replace-this-with-your-hugo-site.com/css/owl.theme.default.css" rel="stylesheet">
+    
+    <link href="http://replace-this-with-your-hugo-site.com/css/terminal.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- jQuery -->
+    <script src="http://replace-this-with-your-hugo-site.com/js/jquery-1.11.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="http://replace-this-with-your-hugo-site.com/js/jqBootstrapValidation.js"></script>
+    <script src="http://replace-this-with-your-hugo-site.com/js/contact_me.js"></script>
+    <script src="http://replace-this-with-your-hugo-site.com/js/contact_headings.js"></script>
+
+    
+    <script src="http://replace-this-with-your-hugo-site.com/js/navbar_toggle.js"></script>
+
+    
+    <link href="http://replace-this-with-your-hugo-site.com/css/HPstyles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+<div role="main">
+    <div class="text-center">
+        <h1>Whoops, this page doesn't exist.</h1>
+        <h1>Move along. (404 error)</h1>
+        <br/>
+        <img src="http://replace-this-with-your-hugo-site.com//img/404-southpark.jpg" />
+    </div>
+</div>
+
+
+<footer id="footer">
+  <div class="container">
+      <div class="text-center">
+        <p>Copyright &copy; Tony Abboud 2016</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="http://replace-this-with-your-hugo-site.com/js/owl.carousel.min.js"></script>
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+});
+});
+$('.owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+nav:true,
+autoplay:true,
+autoplayHoverPause:true,
+autoplayTimeout:3000,
+responsive:{
+    0:{
+        items:1
+    },
+    1000:{
+        items:3
+    },
+}
+})
+</script>
+
+
+</body>
+
+</html>
+
