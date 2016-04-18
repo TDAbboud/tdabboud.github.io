@@ -1,7 +1,7 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Tony Abboud"
-theme = "base"
+theme = "hugo-base"
 
 [params]
   # description = "Engineer + Tinkerer"
