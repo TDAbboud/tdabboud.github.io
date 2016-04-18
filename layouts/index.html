@@ -1,4 +1,5 @@
 {{ partial "header.html" . }}
+{{ partial "nav.html" . }}
 {{ partial "top-block.html" . }}
   {{ range $index, $element :=  .Data.Pages.ByWeight }}{{ if eq .Section "post" }}
 

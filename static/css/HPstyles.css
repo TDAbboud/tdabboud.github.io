@@ -37,7 +37,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: 99999;
+    z-index: 1;
     background-color: black;
 }
 
@@ -63,7 +63,7 @@ and (orientation : portrait)
         position: relative;
         background: url(../img/desk-mini.jpg) no-repeat;
         background-size: 100% 100%;
-        z-index: 99999;
+        z-index: 1;
         background-color: black;
     }
 }
@@ -79,7 +79,7 @@ and (orientation : landscape) {
         position: relative;
         background: url(../img/desk-long.jpg) no-repeat;
         background-size: 100% 100%;
-        z-index: 99999;
+        z-index: 1;
         background-color: black;
     }
 }
@@ -414,3 +414,29 @@ section.success a.active {
     outline: 0;
     color: #2c3e50;
 }
+
+/* Navbar */
+/* CSS used here will be applied after bootstrap.css */
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-brand
+{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    /* left: 0; */
+    text-align: center;
+    margin:0 auto;
+    float: none;
+    font-size: 25px;
+}
+.navbar-toggle {
+    z-index:3;
+}
+
+.nav li a {
+    padding: 15px 15px;
+}
+
+
