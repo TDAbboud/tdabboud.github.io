@@ -1,11 +1,9 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://tdabboud.github.io/"
 languageCode = "en-us"
 title = "Tony Abboud"
 theme = "hugo-base"
 
 [params]
-  # description = "Engineer + Tinkerer"
-  # description = "Whatever the mind of man can conceive and believe, it can achieve."
   description = "Engineer + Tinkerer"
   mainIcon = ""
   githubName = "tdabboud"
