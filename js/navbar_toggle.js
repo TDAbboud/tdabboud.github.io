@@ -10,9 +10,9 @@
         $(window).scroll(function () {
             // Only start the fade in once we have reached the top of the page-description
             if ($(this).scrollTop() > $('.page-title').offset().top) {
-                $('.navbar').fadeIn();
+                $('.navbar').fadeIn(800);
             } else {
-                $('.navbar').fadeOut();
+                $('.navbar').fadeOut(800);
             }
         });
     });
