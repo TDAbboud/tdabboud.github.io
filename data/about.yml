@@ -1,9 +1,9 @@
 resume: "[pdf](tonyabboud_resume.pdf)"
 email: "[tony.abboud54@gmail.com](mailto:tony.abboud54@gmail.com)"
 latest_work:
-    company: Lockheed Martin ATL
-    team:    Advanced Concepts Lab
-    date:    April 2015 - Present
+    company: Palantir Technologies
+    team:    Forward Deployed Software Engineer
+    date:    August 2015 - Present
 education:
     university: University of Maryland
     major:      Electrical Engineering
@@ -12,6 +12,7 @@ education:
 interests:
     - Electronics
     - Hiking
+    - Running
     - Programming
     - Traveling
 links:
