@@ -11,35 +11,4 @@ theme = "book"
   youtubeName = "tdabboud"
   email = "tony.abboud54@gmail.com"
 
-[[params.social]]
-    title = "github"
-    url = "https://github.com/tabboud"
-[[params.social]]
-    title = "youtube"
-    url = "https://youtube.com/tdabboud"
-[[params.social]]
-    title = "linkedin"
-    url = "https://linkedin.com/in/tabboud"
-
-[params.contact]
-    title = "Contact"
-
-    # 'error' defines error messages for invalid inputs
-    [params.contact.form.name]
-        text = "Name"
-        error = "Please enter your name."
-
-    [params.contact.form.email]
-        text = "Email Address"
-        error = "Please enter your email address."
-
-    [params.contact.form.phone]
-        text = "Phone Number"
-        error = "Please enter your phone number."
-
-    [params.contact.form.message]
-        text = "Message"
-        error = "Please enter a message."
-
-    [params.contact.form.button]
-        text = "Send"
+  BookMenuBundle = "/menu"
