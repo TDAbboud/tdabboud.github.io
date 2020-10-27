@@ -1,7 +1,7 @@
 baseurl = "http://tabboud.github.io/"
 languageCode = "en-us"
 title = "Tony Abboud"
-theme = "hugo-base"
+theme = "book"
 
 [params]
   description = "Engineer + Tinkerer"
