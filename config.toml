@@ -1,4 +1,4 @@
-baseurl = "http://tabboud.github.io/"
+baseURL = "http://tabboud.github.io/"
 languageCode = "en-us"
 title = "Tony Abboud"
 theme = "book"
@@ -6,14 +6,14 @@ theme = "book"
 [params]
   description = "Engineer + Tinkerer"
   mainIcon = ""
-  githubName = "tdabboud"
+  githubName = "tabboud"
   linkedinName = "tabboud"
   youtubeName = "tdabboud"
   email = "tony.abboud54@gmail.com"
 
 [[params.social]]
     title = "github"
-    url = "https://github.com/tdabboud"
+    url = "https://github.com/tabboud"
 [[params.social]]
     title = "youtube"
     url = "https://youtube.com/tdabboud"
