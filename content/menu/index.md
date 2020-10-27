@@ -7,5 +7,5 @@ headless: true
   - [Vim-Go]({{< relref "/docs/vim/vim-go" >}})
 <br />
 
-<!-- - **Shortcodes** -->
+- [**About**]({{< relref "/docs/about/about" >}})
 <br />
