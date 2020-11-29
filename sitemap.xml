@@ -1,8 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://tdabboud.github.io/</loc>
+    <loc>http://tabboud.github.io/docs/vim/vim/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/docs/vim/vim-go/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/docs/vim/jumplist/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/notes/note-1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/docs/about/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/notes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tabboud.github.io/</loc>
   </url>
   
 </urlset>
